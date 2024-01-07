@@ -1,0 +1,1 @@
+src/api/secrets/** filter=git-crypt diff=git-crypt

@@ -1,0 +1,77 @@
+#+TITLE: rn-food
+#+AUTHOR: rileyrg
+#+EMAIL: rileyrg at g m x dot de
+
+#+LANGUAGE: en
+#+STARTUP: showall
+
+#+EXPORT_FILE_NAME: README.md
+#+OPTIONS: toc:8 num:nil
+
+#+category: rn-food
+#+FILETAGS: :react-native:rn-food:js:
+
+#+PROPERTY: header-args:bash :tangle-mode (identity #o755)
+
+* dev links
+
+[[https://icons.expo.fyi/Index][expo/vector-icons]]
+
+[[https://reactnative.dev/docs/debugging][react debugging]]
+
+* Meta Data
+** Yelp
+*** my API key                                                        :crypt:
+
+-----BEGIN PGP MESSAGE-----
+
+hQEMA7IjL5SkHG4iAQgApQ8sMYD/pq9nvZKFohtQyJGnqKj1fMtoGfztDQ92FcS3
+qarHLTLaUSzQdla/ysjVlUGS+m42TJyIXlDjFR0EIf98cZ+vgIs/bt/zXOJdGlkK
+lo4xnSxntiHL9r+9CaXjOMWdWUjkTWy76SV6RwnleyOjp3mwo4LVRaHq6EeRJoJl
+q4zs90I0Qb3HMBC+CVaC+ic9SC28TzY2BGMRnODSODgZZ2Qa7a3i8n5lJ4fsWh49
+tfAZnVXnekGyuu1jKR/+VnfJQlE3mIkdZMymRXPQ1Lh4gxHfu9dzUYsHphCXQ4KD
+OiOFsyxgiK4WBXsLI4BfL7bXNBrmZbA2ij1QuSNWPdLAJQFBpvCi4UUpiVdP228w
+e6BGT/xG23geVqPr/X7vYpE2fHOytgACDnNpt+trXp52YInn5h2i69fThLlzinZV
+h+j6qYIwNdTAlW5fwpikzUNP7uHVMPRQvJFtEbOi5jBnCZSmbjv6CmIrsLwcUrXg
+CHUwdAcvS0fox1izQy/DBcYbnuhHSpR1q5R+7FUp/oERa7Th4trW7Ap9DswwkX1Z
+/sTzBS5m1Oyn6bDb1wgS87A3lHm3tyvGKgfnZPyiGMQzXipUYeytcrnRugmHCnjK
+PPf/8B8IGUWUJBmKz2++3r9sABCE4MQ=
+=KAKN
+-----END PGP MESSAGE-----
+
+*** Links
+[[https://docs.developer.yelp.com/reference/v3_business_search][Business Search GET]]
+
+* Tasks
+
+** latest video
+ht2tps://www.udemy.com/course/the-complete-react-native-and-redux-course/learn/lecture/15707130#notes
+
+
+
+
+
+** setting up
+*** set up project
+#+begin_src  bash :noeval
+  npx create-expo-app rn-food
+#+end_src
+*** install react-navigation
+#+begin_src bash
+ npm install react-navigation@4.4.4 --legacy-peer-deps
+#+end_src
+
+#+RESULTS:
+|     |          |          |                 |            |          |           |      |
+| up  | to       | date,    | audited         | 1252       | packages | in        | 5s   |
+|     |          |          |                 |            |          |           |      |
+| 85  | packages | are      | looking         | for        | funding  |           |      |
+| run | `npm     | fund`    | for             | details    |          |           |      |
+|     |          |          |                 |            |          |           |      |
+| 5   | moderate | severity | vulnerabilities |            |          |           |      |
+|     |          |          |                 |            |          |           |      |
+| To  | address  | all      | issues          | (including | breaking | changes), | run: |
+| npm | audit    | fix      | --force         |            |          |           |      |
+|     |          |          |                 |            |          |           |      |
+| Run | `npm     | audit`   | for             | details.   |          |           |      |
+***
