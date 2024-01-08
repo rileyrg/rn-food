@@ -45,7 +45,7 @@ PPf/8B8IGUWUJBmKz2++3r9sABCE4MQ=
 * Tasks
 
 ** latest video
-ht2tps://www.udemy.com/course/the-complete-react-native-and-redux-course/learn/lecture/15707130#notes
+https://www.udemy.com/course/the-complete-react-native-and-redux-course/learn/lecture/15707130#notes
 
 
 
